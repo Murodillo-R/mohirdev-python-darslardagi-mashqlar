@@ -61,6 +61,7 @@ for n in range(2,10):
     qoldiq = n%son
     if qoldiq == 0:
         sonlar.append(n)
+        
 print("siz kiritgan son quyidagilarga qoldiqsiz bolinadi: \n")
 for soni in sonlar:
     print(soni)
